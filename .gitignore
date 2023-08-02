@@ -1,2 +1,4 @@
- // npm is not installed
- 
+ .env
+
+./config/config.json
+

@@ -12,3 +12,10 @@
 -tests[later]
 
 
+
+
+
+create sequelize 
+- npx sequelize init
+- create db
+

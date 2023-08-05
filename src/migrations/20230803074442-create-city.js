@@ -10,15 +10,18 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       name: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
+        unique: true,
       },
       createdAt: {
         allowNull: false,
-        type: Sequelize.DATE
+        type: Sequelize.DATE,
+        unique: true,
       },
       updatedAt: {
         allowNull: false,
-        type: Sequelize.DATE
+        type: Sequelize.DATE,
+        unique: true,
       }
     });
   },
@@ -26,3 +29,5 @@ module.exports = {
     await queryInterface.dropTable('Cities');
   }
 };
+
+

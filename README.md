@@ -19,3 +19,7 @@ create sequelize
 - npx sequelize init
 - create db
 
+-models
+-repository
+-service
+-controllers
